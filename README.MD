@@ -71,54 +71,55 @@ Project studi kasus nyata sistem perpustakaan. Mata kuliah Pemrograman Web 2, me
 
 ### ERD
 
-![ERD](ERD.jpg)
+![ERD](Dokumentasi%20P6/ERD.jpg)
 
 ### Screenshot
 
 #### Struktur semua tabel
 
 1. Tabel anggota
-   ![Tabel Anggota](SS_Tugas2_P6/Struktur%20Tabel/anggota.png)
+   ![Tabel Anggota](Dokumentasi%20P6/Tabel_anggota.jpg)
 
 2. Tabel buku  
-   ![Tabel Buku](SS_Tugas2_P6/Struktur%20Tabel/buku.png)
+   ![Tabel Buku](Dokumentasi%20P6/Tabel_buku.jpg)
 
 3. Tabel kategori_buku
-   ![Tabel Kategori](SS_Tugas2_P6/Struktur%20Tabel/kategori_buku.png)
+   ![Tabel Kategori](Dokumentasi%20P6/Tabel_kategoribuku.jpg)
 
 4. Tabel penerbit  
-   ![Tabel Penerbit](SS_Tugas2_P6/Struktur%20Tabel/penerbit.png)
+   ![Tabel Penerbit](Dokumentasi%20P6/Tabel_penerbit.jpg)
+
 5. Tabel transaksi
-   ![Tabel transaksi](SS_Tugas2_P6/Struktur%20Tabel/transaksi.png)
+   ![Tabel transaksi](Dokumentasi%20P6/Tabel_transaksi.jpg)
 
 #### Data di setiap tabel
 
 1. Data tabel anggota  
-   ![Data tabel anggota](SS_Tugas2_P6/Data%20Tabel/anggota.png)
+   ![Data tabel anggota](Dokumentasi%20P6/Data_anggota.jpg)
 
 2. Data tabel buku  
-   ![Data tabel buku](SS_Tugas2_P6/Data%20Tabel/buku.png)
+   ![Data tabel buku](Dokumentasi%20P6/Data_buku.jpg)
 
 3. Data tabel kategori_buku  
-   ![Data tabel kategori_buku](SS_Tugas2_P6/Data%20Tabel/kategori_buku.png)
+   ![Data tabel kategori_buku](Dokumentasi%20P6/Data_kategori_buku.jpg)
 
 4. Data tabel penerbit  
-   ![Data tabel penerbit](SS_Tugas2_P6/Data%20Tabel/penerbit.png)
+   ![Data tabel penerbit](Dokumentasi%20P6/Data_penerbit.jpg)
 
 5. Data tabel transaksi  
-   ![Data tabel transaksi](SS_Tugas2_P6/Data%20Tabel/transaksi.png)
+   ![Data tabel transaksi](Dokumentasi%20P6/Data_transaksi.jpg)
 
 #### Hasil query JOIN
 
 1. Query JOIN 1
-    ![JOIN 1](SS_Tugas2_P6/Hasil%20Query/join_1.png)
+    ![JOIN 1](Dokumentasi%20P6/Query_JOIN1.jpg)
 
 2. Query JOIN Jumlah Buku Per Kategori  
-  ![Jumlah Buku Per Kategori](SS_Tugas2_P6/Hasil%20Query/jmlBuku_kategori.png)
+  ![Jumlah Buku Per Kategori](Dokumentasi%20P6/Q2.jpg)
 
 3. Query JOIN Jumlah Buku Per Penerbit  
-  ![Jumlah Buku Per Penerbit](SS_Tugas2_P6/Hasil%20Query/jmlBuku_penerbit.png)
+  ![Jumlah Buku Per Penerbit](Dokumentasi%20P6/Q3.jpg)
 
 4. Query JOIN Lengkap  
-  ![JOIN lengkap](SS_Tugas2_P6/Hasil%20Query/join_lengkap.png)
+  ![JOIN lengkap](Dokumentasi%20P6/Q4.jpg)
 

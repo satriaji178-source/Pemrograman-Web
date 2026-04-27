@@ -75,6 +75,7 @@ SELECT
 FROM buku b
 JOIN kategori_buku k ON b.id_kategori = k.id_kategori
 JOIN penerbit p ON b.id_penerbit = p.id_penerbit;
+
 --B. Jumlah buku per kategori
 SELECT 
     k.nama_kategori, 
