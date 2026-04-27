@@ -33,7 +33,7 @@ LIMIT 1;
 --A. Semua buku kategori Programming yang harga < 100.000
 SELECT * 
 FROM buku
-WHERE kategori = 'Programming' AND harga < 100000;
+WHERE id_kategori = '1' AND harga < 100000;
 
 --B. Buku yang judulnya mengandung kata PHP atau MySQL
 SELECT *
@@ -60,23 +60,23 @@ WHERE pengarang = 'Budi Raharjo';
 --==========================
 
 --A. Jumlah buku per kategori dengan total stok per katergori
-SELECT kategori, 
+SELECT id_kategori, 
        COUNT(*) AS jumlah_judul, 
        SUM(stok) AS total_stok
 FROM buku
-GROUP BY kategori;
+GROUP BY id_kategori;
 
 --B. Rata-rata harga per kategori
-SELECT kategori, 
+SELECT id_kategori, 
        AVG(harga) AS rata_rata_harga
 FROM buku
-GROUP BY kategori;
+GROUP BY id_kategori;
 
 --C. Kategori dengan total nilai investaris terbesar
-SELECT kategori, 
+SELECT id_kategori, 
        SUM(harga * stok) AS total_nilai_inventaris --Nilai investaris dihitung dari harga dikali stok
 FROM buku
-GROUP BY kategori
+GROUP BY id_kategori
 ORDER BY total_nilai_inventaris DESC
 LIMIT 1;
 
@@ -87,7 +87,7 @@ LIMIT 1;
 --A. Naikkan harga semua buku kategori Programming sebesar 5%
 UPDATE buku
 SET harga = harga * 1.05
-WHERE kategori = 'Programming';
+WHERE id_kategori = '1';
 
 --B. Tambahkan stok 10 untuk semua buku yang stoknya < 5
 UPDATE buku
