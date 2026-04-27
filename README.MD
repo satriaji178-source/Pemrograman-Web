@@ -12,10 +12,10 @@ Project studi kasus nyata sistem perpustakaan. Mata kuliah Pemrograman Web 2, me
 ![1.A Total jumlah buku aktif](Dokumentasi%20P6//1.A.jpg)
 
 1.B Total nilai inventaris buku aktif
-![1.B Total nilai inventaris buku aktif](Dokumentasi%20P6/1.B.png)
+![1.B Total nilai inventaris buku aktif](Dokumentasi%20P6/1.B.jpg)
 
 1.C Rata-rata harga buku aktif  
-![1.C Rata-rata harga buku aktif](Dokumentasi%20P6/1.C.png)
+![1.C Rata-rata harga buku aktif](Dokumentasi%20P6/1.C.jpg)
 
 1.D Buku termahal (judul dan harga)  
 ![1.D Buku termahal](Dokumentasi%20P6/1.D.jpg)
